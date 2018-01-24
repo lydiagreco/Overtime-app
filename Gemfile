@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+gem 'dotenv-rails', groups: [:development, :test]
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -41,4 +41,4 @@ gem 'bourbon', '~> 5.0'
 gem 'pundit', '~> 1.1'
 gem 'puma', '~> 3.11'
 gem 'twilio-ruby', '~> 5.6', '>= 5.6.1'
-gem 'dotenv-rails', '~> 2.2', '>= 2.2.1', :groups => [:development, :test]
+gem 'dotenv-rails', groups: [:development, :test]
