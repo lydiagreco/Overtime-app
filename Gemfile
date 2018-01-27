@@ -1,5 +1,3 @@
-gem 'dotenv-rails', groups: [:development, :test]
-
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
@@ -43,3 +41,4 @@ gem 'puma', '~> 3.11'
 gem 'twilio-ruby', '~> 5.6', '>= 5.6.1'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
+gem 'rails_12factor'
