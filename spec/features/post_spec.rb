@@ -4,7 +4,7 @@ describe 'navigate' do
   let(:user) { FactoryBot.create(:user) }
 
   let(:post) do
-    Post.create(date: Date.today, work_performed: "WorkPerformend", user_id: user.id, daily_hours: 3.5)
+    Post.create(date: Date.today, work_performed: "WorkPerformed", user_id: user.id, daily_hours: 3.5)
   end
 
   before do

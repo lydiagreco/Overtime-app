@@ -1,3 +1,4 @@
+module ApplicationHelper
   def admin_types
     ['AdminUser']
   end
@@ -34,4 +35,4 @@
         content_tag(:span, status.titleize, class: 'label label-success')
       end
     end
-end
+  end

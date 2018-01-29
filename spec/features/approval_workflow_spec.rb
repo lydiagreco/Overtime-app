@@ -28,6 +28,7 @@ describe 'navigate' do
 
       expect(page).to_not have_content('Approved')
     end
+
     it 'should not be editable by the post creator if status is approved' do
       logout(:user)
       user = FactoryBot.create(:user)
