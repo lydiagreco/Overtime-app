@@ -40,5 +40,5 @@ gem 'pundit', '~> 1.1'
 gem 'puma', '~> 3.11'
 gem 'twilio-ruby', '~> 5.6', '>= 5.6.1'
 gem 'dotenv-rails', groups: [:development, :test]
-gem 'kaminari', '~> 1.1', '>= 1.1.1'
+gem 'kaminari', '~> 1.2'
 gem 'rails_12factor'
